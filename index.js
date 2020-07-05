@@ -81,6 +81,7 @@ function init() {
             console.log(response);
             writeToFile(fn,response);
         });
+        console.log("here1");
 }
 
 // function call to initialize program
