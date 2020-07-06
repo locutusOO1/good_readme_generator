@@ -41,26 +41,26 @@ const questions = [
     {
         type: "input",
         message: "Enter test instructions:",
-        name: "test",
+        name: "tests",
         default: "Tests: "
     },
     {
         type: "input",
         message: "Enter email address:",
         name: "email",
-        default: ""
+        default: "email@email.com"
     },
     {
         type: "input",
         message: "Enter GitHub username:",
         name: "user",
-        default: ""
+        //default: ""
     },
     {
         type: "input",
-        message: "Enter project repository:",
+        message: "Enter project repository name:",
         name: "repo",
-        default: ""
+        //default: ""
     },
     {
         type: "list",
