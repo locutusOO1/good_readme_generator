@@ -11,47 +11,56 @@ const questions = [
     {
         type: "input",
         message: "Enter project title:",
-        name: "title"
+        name: "title",
+        default: "Title: "
     },
     {
         type: "input",
         message: "Enter project description:",
-        name: "description"
+        name: "description",
+        default: "Description: "
     },
     {
         type: "input",
         message: "Enter installation instructions:",
-        name: "installation"
+        name: "installation",
+        default: "Installation Instructions: "
     },
     {
         type: "input",
         message: "Enter usage information:",
-        name: "usage"
+        name: "usage",
+        default: "Usage Instructions: "
     },
     {
         type: "input",
         message: "Enter contribution guidelines:",
-        name: "contribution"
+        name: "contribution",
+        default: "Contribution Guidelines: "
     },
     {
         type: "input",
         message: "Enter test instructions:",
-        name: "test"
+        name: "test",
+        default: "Tests: "
     },
     {
         type: "input",
         message: "Enter email address:",
-        name: "email"
+        name: "email",
+        default: ""
     },
     {
         type: "input",
         message: "Enter GitHub username:",
-        name: "user"
+        name: "user",
+        default: ""
     },
     {
         type: "input",
         message: "Enter project repository:",
-        name: "repo"
+        name: "repo",
+        default: ""
     },
     {
         type: "list",
@@ -81,7 +90,6 @@ function init() {
             console.log(response);
             writeToFile(fn,response);
         });
-        console.log("here1");
 }
 
 // function call to initialize program
