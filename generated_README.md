@@ -5,7 +5,7 @@
   
   Link to repo: <https://github.com/User/Repository>
 
-  [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+  [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
   ## Table of Contents:
   1. [Installation](#installation)
@@ -21,7 +21,7 @@
   Usage
 
   ## License:
-  Use this however you want as long as it's legal and noncommercial, but give credit by providing a link to the license and indicating changes you made.
+  CC0 1.0 - Use this however you want as long as it's legal.
 
   ## Contributing:
   Contribution

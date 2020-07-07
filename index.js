@@ -82,7 +82,7 @@ const writeToFile = (fileName, data) => {
         data.licenseBadge = "[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)";
         data.licenseDesc = "CC BY-NC 4.0 - Use this however you want as long as it's legal and noncommercial, but give credit by providing a link to the license and indicating changes you made.";
     }
-    fs.writeFile(fileName, generateMarkdown(data), err => err ? console.log(err) : console.log("Successfully generated README.md"));
+    fs.writeFile(fileName, generateMarkdown(data), err => err ? console.log(err) : console.log(`Successfully created ${fn}`));
 }
 
 // function to initialize program
