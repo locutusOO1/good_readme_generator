@@ -1,9 +1,9 @@
-# Title
+# Good README Generator
 
-  ## Description:
-  Description
-  
-  Link to repo: <https://github.com/User/Repository>
+  ## Links:
+  * [Repo](https://github.com/locutusOO1/good_readme_generator)
+  * [Video Walkthrough](https://github.com/locutusOO1/good_readme_generator)
+  * [![dependencies Status](https://david-dm.org/locutusOO1/good_readme_generator.svg)](https://david-dm.org/locutusOO1/good_readme_generator)
 
   ## Table of Contents:
   1. [Installation](#installation)
@@ -13,8 +13,8 @@
   5. [Tests](#tests)
   6. [Questions](#questions)
   ## Installation:
-  Installation
 
+  
   ## Usage:
   Usage
 
@@ -28,5 +28,6 @@
   Tests
 
   ## Questions:
-  * Feel free to contact me with any questions at [email@email.com](mailto:email@email.com).
-  * You can also check out my [GitHub Profile](https://github.com/User).
+  * Feel free to checkout my [GitHub Profile](https://github.com/locutusOO1).
+
+  ## Screenshot:

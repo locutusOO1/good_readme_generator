@@ -7,6 +7,8 @@ const generateMarkdown = data =>
   
   Link to repo: <https://github.com/${data.user}/${data.repo}>
 
+  ${data.licenseBadge}
+
   ## Table of Contents:
   1. [Installation](#installation)
   2. [Usage](#usage)
@@ -21,7 +23,7 @@ const generateMarkdown = data =>
   ${data.usage}
 
   ## License:
-  ${data.license}
+  ${data.licenseDesc}
 
   ## Contributing:
   ${data.contribution}
