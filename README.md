@@ -1,9 +1,9 @@
-# Title: 
+# Title
 
   ## Description:
-  Description: 
+  Description
   
-  Link to repo: <https://github.com//>
+  Link to repo: <https://github.com/User/Repository>
 
   ## Table of Contents:
   1. [Installation](#installation)
@@ -12,21 +12,21 @@
   4. [Contributing](#contributing)
   5. [Tests](#tests)
   6. [Questions](#questions)
-  ## 1. Installation:
-  Installation Instructions: 
+  ## Installation:
+  Installation
 
-  ## 2. Usage:
-  Usage Instructions: 
+  ## Usage:
+  Usage
 
-  ## 3. License:
-  license B
+  ## License:
+  license A
 
-  ## 4. Contributing:
-  Contribution Guidelines: 
+  ## Contributing:
+  Contribution
 
-  ## 5. Tests:
-  Tests: 
+  ## Tests:
+  Tests
 
-  ## 6. Questions:
+  ## Questions:
   * Feel free to contact me with any questions at [email@email.com](mailto:email@email.com).
-  * You can also check out my [GitHub Profile](https://github.com/).
+  * You can also check out my [GitHub Profile](https://github.com/User).

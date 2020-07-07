@@ -12,37 +12,37 @@ const questions = [
         type: "input",
         message: "Enter project title:",
         name: "title",
-        default: "Title: "
+        default: "Title"
     },
     {
         type: "input",
         message: "Enter project description:",
         name: "description",
-        default: "Description: "
+        default: "Description"
     },
     {
         type: "input",
         message: "Enter installation instructions:",
         name: "installation",
-        default: "Installation Instructions: "
+        default: "Installation"
     },
     {
         type: "input",
         message: "Enter usage information:",
         name: "usage",
-        default: "Usage Instructions: "
+        default: "Usage"
     },
     {
         type: "input",
         message: "Enter contribution guidelines:",
         name: "contribution",
-        default: "Contribution Guidelines: "
+        default: "Contribution"
     },
     {
         type: "input",
         message: "Enter test instructions:",
         name: "tests",
-        default: "Tests: "
+        default: "Tests"
     },
     {
         type: "input",
@@ -54,13 +54,13 @@ const questions = [
         type: "input",
         message: "Enter GitHub username:",
         name: "user",
-        //default: ""
+        default: "User"
     },
     {
         type: "input",
         message: "Enter project repository name:",
         name: "repo",
-        //default: ""
+        default: "Repository"
     },
     {
         type: "list",
@@ -71,8 +71,7 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-    console.log(generateMarkdown(data));
+const writeToFile = (fileName, data) => {
     fs.writeFile(fileName, generateMarkdown(data), err => {
         if (err) {
             console.log(err);
@@ -83,14 +82,7 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {
-    inquirer
-        .prompt(questions)
-        .then(function(response){
-            console.log(response);
-            writeToFile(fn,response);
-        });
-}
+const init = () => inquirer.prompt(questions).then(response => writeToFile(fn,response));
 
 // function call to initialize program
 init();
