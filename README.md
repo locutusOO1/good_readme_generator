@@ -1,12 +1,11 @@
 # Good README Generator
 
   ## Description:
-
+  This program uses JavaScript to generate a nicely formatted README file which incorporates user prompted information.
 
   ## Links:
   * [Repo](https://github.com/locutusOO1/good_readme_generator)
   * [Video Walkthrough](https://github.com/locutusOO1/good_readme_generator)
-  * [![dependencies Status](https://david-dm.org/locutusOO1/good_readme_generator.svg)](https://david-dm.org/locutusOO1/good_readme_generator)
 
   ## Table of Contents:
   1. [Installation](#installation)
@@ -14,7 +13,7 @@
   3. [Technology Used](#technology-used)
   5. [Questions](#questions)
   6. [Screenshots](#screenshots)
-  
+
   ## Installation:
   * Install dependencies by running "npm install" from the terminal.
   
