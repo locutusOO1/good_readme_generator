@@ -5,7 +5,7 @@
 
   ## Links:
   * [Repo](https://github.com/locutusOO1/good_readme_generator)
-  * [Video Walkthrough](https://github.com/locutusOO1/good_readme_generator)
+  * [Video Walkthrough](https://drive.google.com/file/d/1ci59lY1w9MzFGfAccvoMVEioC6PY7eNh/view)
 
   ## Table of Contents:
   1. [Installation](#installation)
@@ -33,3 +33,7 @@
   * Feel free to checkout my [GitHub Profile](https://github.com/locutusOO1).
 
   ## Screenshots:
+  CLI Example:
+  ![Screenshot of CLI](images/cli_example.PNG)
+  README Example:
+  ![Screenshot of Generatred README](images/generated_README_example.PNG)

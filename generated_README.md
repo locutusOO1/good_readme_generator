@@ -3,9 +3,9 @@
   ## Description:
   Description
   
-  Link to repo: <https://github.com/User/Repository>
+  Link to repo: <https://github.com/locutusOO1/good_readme_generator>
 
-  [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+  [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
   ## Table of Contents:
   * [Installation](#installation)
@@ -22,7 +22,7 @@
   Usage
 
   ## License:
-  CC0 1.0 - Use this however you want as long as it's legal.
+  CC BY-NC 4.0 - Use this however you want as long as it's legal and noncommercial, but give credit by providing a link to the license and indicating changes you made.
 
   ## Contributing:
   Contribution
@@ -32,4 +32,4 @@
 
   ## Questions:
   * Feel free to contact me with any questions at [email@email.com](mailto:email@email.com).
-  * You can also check out my [GitHub Profile](https://github.com/User).
+  * You can also check out my [GitHub Profile](https://github.com/locutusOO1).
